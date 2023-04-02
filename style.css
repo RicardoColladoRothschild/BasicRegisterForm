@@ -58,3 +58,21 @@ body{
     margin-bottom: 15px;
 
 }
+.primary-button{
+    font-weight: bold;
+    width:100px;
+    height: 31px;
+    border:none;
+    border-radius: 10px;
+    background-color: var(--backgroundBody);
+    color:var(--backgroundcontainer);
+    margin-top:10px;
+    align-self: center;
+    box-shadow: 0 8px 8px rgba(53,86,56,0.35);
+    cursor: pointer;
+}
+.primary-button:hover{
+    background-color:#171a4a;
+    color:var(--lettercolor);
+    border:1px solid var(--lettercolor);
+}
