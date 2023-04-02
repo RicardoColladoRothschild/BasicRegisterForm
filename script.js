@@ -3,5 +3,5 @@ let lastName;
 
 function getValueInput(){
     firstName = document.getElementById("domNombreText").value;
-    alert(firstName);
+    lastName = document.getElementById("domApellidoText").value;
 }
