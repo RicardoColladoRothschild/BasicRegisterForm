@@ -1,0 +1,47 @@
+:root{
+    --backgroundBody:#9f90ea;
+    --backgroundcontainer:#171a4a;
+    --lettercolor:#675cb0;
+
+}
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+body{
+    width:100%;
+    height: 100vh;
+    display:grid;
+    place-items: center;
+    background-color: var(--backgroundBody);
+    color:var(--lettercolor);
+}
+
+.container{
+    width:320px;
+    height: 288px;
+    max-width: 350px;
+    min-width: 315px;
+    border:none;
+    border-radius: 24px;
+    background-color: var(--backgroundcontainer);
+    padding:25px;
+    box-shadow: 0 8px 8px rgba(56,73,53,0.85);
+}
+.main-container--form{
+    display:flex;
+    flex-direction: column;
+}
+.main-container--form label h1{
+    font-size: 2.5rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin-bottom: 20px;
+    border-bottom: 1px solid var(--lettercolor);
+}
